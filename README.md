@@ -585,7 +585,7 @@ You can also use ``fcall`` to get a promise for an exception.
 
 ```javascript
 return Q.fcall(function () {
-    throw new Error("Can't do it");
+    new Error("Can't do it");
 });
 ```
 
